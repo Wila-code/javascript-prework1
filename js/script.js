@@ -61,8 +61,9 @@ if(argComputerMove == argPlayerMove) {
     return 'Ty przegrywasz!';
 } else if(argPlayerMove == 'papier' && argComputerMove == 'nożyce'){
     return 'Ty przegrywasz!';
-} else if(argPlayerMove == 'nieznany ruch'{
+} else if(argPlayerMove == 'nieznany ruch')
     return 'Nieznany ruch! Wybierz ponownie!';
-}
+
 printMessage(displayResult(computerMove, playerMove));
-)
+
+}
